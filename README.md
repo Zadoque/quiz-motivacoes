@@ -1,14 +1,15 @@
-# 🎯 Questionário de Motivações — SEBRAE
+# 🚀 Ferramentas Interativas – Disciplina de Empreendedorismo (SEBRAE)
 
-Página estática desenvolvida para apoiar alunos da **Disciplina de Empreendedorismo** na aplicação do questionário baseado na **Teoria das Necessidades Adquiridas**, de David McClelland.
+Página estática com ferramentas interativas baseadas no **Manual do Aluno – SEBRAE (Empretec, 2009)**, desenvolvida para apoiar alunos da **Disciplina de Empreendedorismo**, ministrada pelo Prof. Dr. Manuel Antonio Molina Palma.
 
-🔗 **Acesse em:** [zadoque.github.io/quiz-motivacoes](https://zadoque.github.io/quiz-motivacoes)
+🔗 **Acesse em:** [zadoque.github.io/empreendedorismo-sebrae](https://zadoque.github.io/empreendedorismo-sebrae)
 
 ---
 
-## 📋 Sobre o questionário
+## 🧰 Ferramentas disponíveis
 
-O questionário é extraído do **Manual do Aluno – SEBRAE (Empretec, 2009)** e classifica a motivação predominante do respondente em três perfis:
+### 🎯 Questionário de Motivações
+Baseado na **Teoria das Necessidades Adquiridas de David McClelland**, identifica a motivação predominante do aluno entre três perfis:
 
 | Motivo | Característica principal |
 |---|---|
@@ -16,46 +17,35 @@ O questionário é extraído do **Manual do Aluno – SEBRAE (Empretec, 2009)** 
 | 🤝 **Afiliação** | Valorização de relações, cooperação e harmonia |
 | 👑 **Poder** | Desejo de liderança, influência e prestígio |
 
----
-
-## ✨ Funcionalidades
-
-- **Tela de introdução** explicando o objetivo do questionário
-- **10 perguntas**, uma por vez, com 3 alternativas cada
-- **Barra de progresso** animada
-- **Navegação livre** entre perguntas (Anterior / Próxima)
-- **Tela de resultado** com:
-  - Cards dos 3 motivos em ordem **decrescente** de pontuação (🥇🥈🥉)
-  - Descrição detalhada e bullets de caracterização de cada motivo
-  - **3 tabelas individuais** (uma por motivo) com ✅ nos itens marcados
-  - **Tabela consolidada** com os 3 motivos lado a lado
-- **Botão Copiar resultado** em texto simples
-- **Botão Compartilhar no WhatsApp** com formatação nativa (`*negrito*` e `_itálico_`)
-- Botão para **refazer o questionário**
+- 10 perguntas com 3 alternativas cada
+- Resultado com 3 tabelas individuais por motivo + tabela consolidada
+- Explicação detalhada de cada perfil em ordem decrescente de pontuação
 
 ---
 
-## 🔒 Privacidade
+### 📈 Autoavaliação do Comportamento Empreendedor (ACCE)
+Avalia **10 características do comportamento empreendedor** agrupadas em 3 conjuntos:
 
-Nenhum dado é coletado, armazenado ou enviado. Tudo roda **localmente no navegador** do usuário. O código-fonte é aberto e auditável aqui mesmo neste repositório.
+| Conjunto | Características | Pontuação máx. |
+|---|---|---|
+| 🏆 **Realização** | Busca de oportunidades, Persistência, Comprometimento, Exigência de qualidade, Correr riscos | 75 |
+| 📋 **Planejamento** | Estabelecimento de metas, Busca de informação, Planejamento sistemático | 45 |
+| 💪 **Poder** | Persuasão e rede de contatos, Independência e autoconfiança | 30 |
 
----
-
-## 🚀 Como usar / publicar
-
-1. Faça o clone ou download deste repositório
-2. O arquivo principal é `index.html` (renomeie `questionario_motivacoes.html` para `index.html`)
-3. No GitHub: vá em **Settings → Pages → Branch: main → / (root)** e salve
-4. Acesse em `https://zadoque.github.io/quiz-motivacoes`
-
----
-
-## 📚 Referências
-
-- SEBRAE. *Manual Empretec*. 2009.
-- McClelland, D. C. *The Achieving Society*. 1961.
-- Questionário adaptado de: SOUZA, E. L. P. *Desenvolvimento organizacional*. 1975.
+- 30 comportamentos avaliados em escala de 1 (nunca) a 5 (sempre)
+- Avanço automático após cada resposta
+- Gráfico de barras gerado automaticamente com destaque para a maior característica
+- Tabela detalhada por conjunto com as questões que compuseram cada soma
 
 ---
 
-Feito por **Zadoque Carneiro** · Disciplina de Empreendedorismo
+## ✨ Funcionalidades comuns
+
+- ✅ Nenhum dado coletado — tudo roda localmente no navegador
+- 📱 Responsivo para celular
+- 📋 Botão **Copiar resultado** em texto simples
+- 💬 Botão **Compartilhar no WhatsApp** com formatação nativa (`*negrito*` e `_itálico_`)
+- 🔄 Botão para refazer a qualquer momento
+
+---
+
